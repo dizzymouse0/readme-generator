@@ -1,20 +1,42 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+let index = require('../index.js')
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-// TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  console.log(data);
+  return `
+
+<a href="https://github.com/${data.username}"><img src="https://img.shields.io/badge/Github%20page-${data.username}-1abc9c.svg" alt="User's github profile"></a>
+
+![alt text](https://github.com/${data.username}.png)
+
+# Username: 
+${data.username}
+
+# Title:
+${data.title}
+
+# Description:
+${data.description}
+
+# Table of Contents: 
+${data.toc}
+
+# Installation: 
+${data.installation}
+
+# Usage: 
+${data.usage}
+
+# Contribute: 
+${data.contribute}
+
+# Tests: 
+${data.tests}
+
+# License: 
+${data.license}
 
 `;
 }
 
+// module.exports is an object we use to store variables or methods
 module.exports = generateMarkdown;
