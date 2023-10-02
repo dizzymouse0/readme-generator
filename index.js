@@ -9,6 +9,25 @@ const questions = [{
     message: "What is your project title?",
 },
 {
+    type: "input",
+    name: "title",
+    message: "What is your project title?",
+},
+{
+    type: "input",
+    name: "description",
+    message: "What is your project description?",
+},
+{
+    type: "input",
+    name: "table of contents",
+    message: "Enter Table of Contents to make it easier for users to locate what they need",
+},
+{
+    
+}
+
+]
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
