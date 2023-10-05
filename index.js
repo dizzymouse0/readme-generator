@@ -20,11 +20,10 @@ const questions = [{
 },
 {
     type: "input",
-    name: "table of contents",
-    message: "Enter Table of Contents to make it easier for users to locate what they need",
+    name: "Enter a table of contents to help locate different sections in your readme",
 },
 {
-    
+    type: "input"
 }
 
 ]
