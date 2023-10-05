@@ -20,13 +20,27 @@ const questions = [{
 },
 {
     type: "input",
-    name: "Enter a table of contents to help locate different sections in your readme",
+    name: "tableOfContents",
+    message: "Enter a table of contents to help locate different sections in your readme",
 },
 {
-    type: "input"
-}
-
+    type: "input",
+    name: "usage",
+    message: "Show instructions for use",
+},
+{
+    type: "input",
+    name: "tests",
+    message: "List any test and provide examples on how to run them.",
+},
+{
+    type: "input",
+    name: "license",
+    message: "List any licenses' your project may include. Choices include ISC, MIT, Apache License 2.0, GNU GPLv2, GNU GPLv3",
+},
 ]
+
+
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
