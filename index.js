@@ -40,10 +40,13 @@ const questions = [{
 },
 ]
 
-
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// A function to write README files
+function writeToFile(fileName, data) {
+    var fileName = 'README.md';
+    fs.writeFile(fileName, data, "utf-8", function(err) {
+        if ()
+    })
+}
 
 // TODO: Create a function to initialize app
 function init() {}
