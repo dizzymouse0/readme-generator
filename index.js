@@ -6,7 +6,7 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
 const questions = [{
     type: "input",
     name: "username",
-    message: "What is your project title?",
+    message: "What is your GitHub user name?",
 },
 {
     type: "input",
@@ -20,7 +20,7 @@ const questions = [{
 },
 {
     type: "input",
-    name: "tableOfContents",
+    name: "toc",
     message: "Enter a table of contents to help locate different sections in your readme",
 },
 {
@@ -49,8 +49,15 @@ function writeToFile(fileName, data) {
     });
 }
 
-// TODO: Create a function to initialize app
-function init() {}
+// this section prints the data object to the terminal
+function init() {
+    inquirer.prompt(questions)
+    .then(function(data) {
+        let readme = generateMarkdown(data);
+        var fileName = 'README.md';
+        return writeToFile(fileName, readme);
+    });
+}
 
 // Function call to initialize app
 init();
