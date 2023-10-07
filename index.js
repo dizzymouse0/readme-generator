@@ -21,12 +21,22 @@ const questions = [{
 {
     type: "input",
     name: "toc",
-    message: "Enter a table of contents to help locate different sections in your readme",
+    message: "Enter a table of contents",
+},
+{
+    type: "input",
+    name: "installation",
+    message: "What steps are required to install your project?",
 },
 {
     type: "input",
     name: "usage",
     message: "Show instructions for use",
+},
+{
+    type: "input",
+    name: "contribute",
+    message: "List collaborators and any tutorials used.",
 },
 {
     type: "input",
@@ -36,7 +46,7 @@ const questions = [{
 {
     type: "input",
     name: "license",
-    message: "List any licenses' your project may include. Choices include ISC, MIT, Apache License 2.0, GNU GPLv2, GNU GPLv3",
+    message: "List any licenses' your project may include.",
 },
 ]
 
