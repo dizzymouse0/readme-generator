@@ -9,15 +9,24 @@ function renderLicenseBadge(license) {
 };
 
 // Function that returns the license link
-// If none, it will return an empty string
 function renderLicenseLink(license) {
 if (license === 'none') {
  return ''
-} else {
- return  `[${license} License](https://choosealicense.com/licenses/${license}/)`
 }
 
 };
+
+// Function that returns the liscense portion of the README
+// If none, ir will return an empty string
+function renderLicenseSection(license) {
+if (license === 'none') {
+  return ''
+} else {
+ return `## License`
+}
+  
+};
+
 
 // Function to generate markdown for the README
 function generateMarkdown(data) {
