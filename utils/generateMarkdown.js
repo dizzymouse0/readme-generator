@@ -1,3 +1,5 @@
+// function to retun a license badge based on liscense used
+// If none, it will return an empty string
 function renderLicenseBadge(license) {
   if (license === 'none') {
     return ''
@@ -5,6 +7,22 @@ function renderLicenseBadge(license) {
     return `![License Badge](https://img.shields.io/badge/License-${license}-blue)`
   }
 };
+
+// Function that returns the license link
+// If none, it will return an empty string
+function renderLicenseLink(license) {
+if (license === 'none') {
+ return ''
+} else {
+ return  `[${license} License](https://choosealicense.com/licenses/${license}/)`
+}
+
+};
+
+// Function to generate markdown for the README
+function generateMarkdown(data) {
+  return `# ${data.title}
+  ${renderLicenseBadge(data.license)}
 
 
 # Username: 
