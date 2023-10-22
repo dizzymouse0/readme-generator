@@ -1,12 +1,11 @@
-let index = require('../index.js')
+function renderLicenseBadge(license) {
+  if (license === 'none') {
+    return ''
+  } else {
+    return `![License Badge](https://img.shields.io/badge/License-${license}-blue)`
+  }
+};
 
-function generateMarkdown(data) {
-  console.log(data);
-  return `
-
-<a href="https://github.com/${data.username}"><img src="https://img.shields.io/badge/Github%20page-${data.username}-1abc9c.svg" alt="User's github profile"></a>
-
-![alt text](https://github.com/${data.username}.png)
 
 # Username: 
 ${data.username}
@@ -17,7 +16,14 @@ ${data.title}
 # Description:
 ${data.description}
 
-# Table of Contents: 
+# Table of Contents 
+- [Installation](#installtion)
+- [Usage](#usage)
+- [Credits](#credits)
+- [Contributing](#contributing)
+- [Tests](#test)
+- [Questions](#questions)
+
 ${data.toc}
 
 # Installation: 
@@ -38,5 +44,5 @@ ${data.license}
 `;
 }
 
-// module.exports is an object we use to store variables or methods
+// module.exports is an object used to store variables or methods
 module.exports = generateMarkdown;

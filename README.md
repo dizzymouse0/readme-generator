@@ -1,33 +1,49 @@
+# fdsf
+  ![License Badge](https://img.shields.io/badge/License-mit-blueviolet)
 
+  ## Description
+  sfsd
 
-<a href="https://github.com/dizzymouse0"><img src="https://img.shields.io/badge/Github%20page-dizzymouse0-1abc9c.svg" alt="User's github profile"></a>
+  ## Table of Contents
 
-![alt text](https://github.com/dizzymouse0.png)
+  - [Installation](#installtion)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [Contributing](#contributing)
+  - [Tests](#test)
+  - [Questions](#questions)
+  
+  ## Installation
 
-# Username: 
-dizzymouse0
+  sfsdf
 
-# Title:
-README Generator
+  ## Usage
 
-# Description:
-To save time building a professional README, this README generator works in the command line using markdown syntax from user input to then generate a professional README. This saves time and effort in a project's phase.
+  dsfsdfs
 
-# Table of Contents: 
-Enter a table of contents here
+  ## Credits
 
-# Installation: 
-Use the command line to enter "npm i" then "node index.js"
+  sdfsfsd
+  
+  ## Contributing
+  
+  dfsdsfsf
 
-# Usage: 
-Follow video for instructions
+  ## Tests
 
-# Contribute: 
-List collaborators and tutorials here
+  sfsff
 
-# Tests: 
-List tests here
+  ## Questions
 
-# License: 
-MIT
+  Please contact me with any questions related to this project.
 
+  Github Username: sdfsssd
+
+  GitHub Email: [sfddsfdsdf](mailto:sfddsfdsdf)
+
+  GitHub Profile: sf
+
+  
+  ## License
+
+  For more information on this license please visit: [mit License](https://choosealicense.com/licenses/mit/)
