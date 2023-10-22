@@ -1,14 +1,14 @@
-# heyyy
+# README Generator
   ![License Badge](https://img.shields.io/badge/License-mit-blue)
 
 # Username: 
-dizz
+dizzymouse0
 
 # Title:
-heyyy
+README Generator
 
 # Description:
-its great
+Enter description here
 
 # Table of Contents 
 - [Installation](#installtion)
@@ -19,19 +19,19 @@ its great
 - [Questions](#questions)
 
 ## Installation
-lots
+Enter steps
 
 # Installation: 
-lots
+Enter steps
 
 # Usage: 
-there are many
+Show instructions
 
 # Contribute: 
-okay
+Add any instructions
 
 # Tests: 
-list tests here
+List tests here
 
 ## License
 For more information visit: [mit License](https://choosealicense.com/licenses/mit/)
