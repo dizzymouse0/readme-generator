@@ -20,11 +20,6 @@ const questions = [{
 },
 {
     type: "input",
-    name: "toc",
-    message: "Enter a table of contents",
-},
-{
-    type: "input",
     name: "installation",
     message: "What steps are required to install your project?",
 },
@@ -35,8 +30,13 @@ const questions = [{
 },
 {
     type: "input",
-    name: "contribute",
+    name: "credits",
     message: "List collaborators and any tutorials used.",
+},
+{
+    type: "input",
+    name: "contribute",
+    message: "Add your instructions if contributing to this project.",
 },
 {
     type: "input",
@@ -44,11 +44,13 @@ const questions = [{
     message: "List any tests and how to run them.",
 },
 {
-    type: "input",
+    type: "list",
     name: "license",
     message: "List any licenses' your project may include.",
+    choices: ['mit', 'isc', 'gpl-3.0', 'apache-2.0'],
 },
-]
+
+];
 
 // A function to write README files
 function writeToFile(fileName, data) {

@@ -1,10 +1,14 @@
 # READme Generator
 
 ## Project Description
-To save time building a professional README, this README generator works in the command line using markdown syntax from user input to then generate a professional README. This saves time and effort in a project's phase.
+A README generator that works in the command line using markdown syntax to generate a professional README. This saves time and effort in a project's phase.
 
-## How to Use
-Clone the repo and install packages with npm i in an integrated terminal. Then enter node index.js to start the application. The user will be prompted with several questions:
+## Installation
+ - Clone the repo
+ - Install packages with npm i in an integrated terminal
+ - Enter node index.js to start the application
+
+The user will be prompted with several questions:
 
 	"What is your GitHub user name?",
     "What is your project title?",
@@ -15,6 +19,13 @@ Clone the repo and install packages with npm i in an integrated terminal. Then e
 	"List collaborators and any tutorials used.",
     "List any tests and how to run them.",
 	"List any licenses' your project may include.
+
+## Usage
+ - For purposes of creating a quick and effective README.md file
+ - 
+
+## Applications Used
+
 
 ### Credits
 	npm documentation 
