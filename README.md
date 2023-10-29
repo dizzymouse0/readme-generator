@@ -18,9 +18,6 @@ Enter description here
 - [Tests](#test)
 - [Questions](#questions)
 
-## Installation
-Enter steps
-
 # Installation: 
 Enter steps
 
